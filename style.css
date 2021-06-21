@@ -1,0 +1,53 @@
+* {
+  margin: 10;
+  padding: 10;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 247, 201);
+  font-family: Arial;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 35px;
+  align-self: stretch;
+}
+
+.container {
+  background: rgb(0, 255, 191);
+  display: inline-table;
+  position: relative;
+  left: 1100px;
+  top: 30px;
+}
+
+.container2 {
+  background: rgb(231, 150, 207);
+  display: inline-table;
+  position: relative;
+  right: 200px;
+  top: 30px;
+}
+
+.container {
+  overflow: hidden;
+}
+.tab {
+  float: left;
+}
+.tab-2 {
+  margin-left: 50px;
+}
+.tab-2 input {
+  display: block;
+  margin-bottom: 10px;
+}
+tr {
+  transition: all 0.25s ease-in-out;
+}
+tr:hover {
+  background-color: rgb(181, 53, 231);
+  cursor: pointer;
+}

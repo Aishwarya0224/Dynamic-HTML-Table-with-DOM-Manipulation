@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>Add Edit Remove HTML Table Row</title>
+    <meta charset="windows-1252" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <h1>JavaScript is fun and so is HTML & CSS!</h1>
+    <p class="first">
+      You can learn JavaScript without HTML and CSS, but for DOM manipulation
+      it's useful to have some basic ideas of HTML & CSS and I'm trying to learn
+      it.
+    </p>
+
+    <div class="container">
+      <div class="tab tab-1">
+        <table id="table" border="1">
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="container2">
+      <div class="tab tab-2">
+        <p>All fields are mandatory</p>
+        First Name :<input type="text" name="fname" id="fname" /> Last Name
+        :<input type="text" name="lname" id="lname" /> Age :<input
+          type="number"
+          name="age"
+          id="age"
+        />
+
+        <button onclick="addHtmlTableRow();">Add</button>
+        <button onclick="editHtmlTbleSelectedRow();">Edit</button>
+        <button onclick="removeSelectedRow();">Remove</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
