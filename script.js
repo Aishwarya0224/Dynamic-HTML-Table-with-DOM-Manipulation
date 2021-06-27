@@ -58,6 +58,8 @@ function selectedRowToInput() {
 }
 selectedRowToInput();
 
+
+// edit selected row data in the input text
 function editHtmlTbleSelectedRow() {
   var fname = document.getElementById("fname").value,
     lname = document.getElementById("lname").value,
@@ -69,6 +71,7 @@ function editHtmlTbleSelectedRow() {
   }
 }
 
+// delete selected row data from table
 function removeSelectedRow() {
   table.deleteRow(rIndex);
   // clear input text
